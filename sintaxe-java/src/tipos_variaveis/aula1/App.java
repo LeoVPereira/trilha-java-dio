@@ -1,3 +1,4 @@
+package tipos_variaveis.aula1;
 public class App {
     public static void main(String[] args) throws Exception {       
         // Abaixo um ex de uma conversão impossível de dado,
