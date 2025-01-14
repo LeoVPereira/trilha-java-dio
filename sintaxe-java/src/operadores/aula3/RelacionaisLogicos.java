@@ -2,7 +2,7 @@ package operadores.aula3;
 
 public class RelacionaisLogicos {
     public static void main(String[] args) {
-        // classe Operadores.java
+        // Relacionais:
         int numero1 = 1;
         int numero2 = 2;
 
@@ -20,9 +20,9 @@ public class RelacionaisLogicos {
 
         if (numero1 != numero2)
             System.out.println("Numero 1 é diferente de numero 2");
-   
-    // ComparacaoAvancada.java
-    
+
+        // equals():
+
         String nome1 = "JAVA";
         String nome2 = "JAVA";
 
@@ -40,6 +40,26 @@ public class RelacionaisLogicos {
         System.out.println(nome1.equals(nome2)); // ??
         System.out.println(nome2.equals(nome3)); // ??
         System.out.println(nome3.equals(nome4)); // ??
+
+        //Lógicos:
+        boolean condicao1 = true;
+
+        boolean condicao2 = false;
+
+        /*
+         * Aqui estamos utilizando o operador lógico E para fazer a união de duas
+         * expressões.
+         * É como se estivesse escrito:
+         * "Se Condicao1 e Condicao2 forem verdadeiras, executar código"
+         */
+
+        if (condicao1 && condicao2)
+            System.out.print("Os dois valores precisam ser verdadeiros");
+        
+
+        // Se condicao1 OU condicao2 for verdadeira, executar código.
+        if (condicao1 || condicao2)
+            System.out.print("Um dos valores precisa ser verdadeiro");
 
     }
 }
